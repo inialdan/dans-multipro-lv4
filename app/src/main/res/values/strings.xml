@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aldan Android Test Lvl4</string>
+    <string name="title_home">Home</string>
+    <string name="title_account">Account</string>
+
+    <string name="product_detail"><u>Go To Website</u></string>
+</resources>
