@@ -1,5 +1,6 @@
 package com.android.aldan.android.test.lvl4
 
+import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -34,6 +35,12 @@ class PositionDetailActivity : AppCompatActivity() {
 
         binding.ivPositionDetail.setOnClickListener {
             onBackPressed()
+        }
+
+        binding.srPositionDetail.setOnRefreshListener {
+            loadDataPositionDetail()
+
+            binding.srPositionDetail.isRefreshing = false
         }
 
         loadDataPositionDetail()

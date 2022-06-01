@@ -13,12 +13,6 @@ fun Context.toast(message: CharSequence) =
 fun Fragment.toast(message: CharSequence) =
     Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
 
-fun Context.longToast(message: CharSequence) =
-    Toast.makeText(this, message, Toast.LENGTH_LONG).show()
-
-fun Fragment.longToast(message: CharSequence) =
-    Toast.makeText(requireContext(), message, Toast.LENGTH_LONG).show()
-
 fun View.visible() {
     this.visibility = View.VISIBLE
 }

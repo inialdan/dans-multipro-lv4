@@ -1,6 +1,8 @@
 package com.android.aldan.android.test.lvl4.network
 
+import android.provider.Settings.Global.getString
 import com.android.aldan.android.test.lvl4.BuildConfig
+import com.android.aldan.android.test.lvl4.R
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

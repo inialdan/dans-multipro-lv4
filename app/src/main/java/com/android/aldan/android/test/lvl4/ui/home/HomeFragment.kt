@@ -53,16 +53,8 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this)[HomeViewModel::class.java]
-
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        // val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            // textView.text = it
-        }
 
         binding.clFilter.gone()
 

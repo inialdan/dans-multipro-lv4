@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
-        android:contentDescription="Loading"
+        android:contentDescription="@string/loading"
         android:src="@drawable/loading_animation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
